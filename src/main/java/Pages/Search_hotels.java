@@ -37,6 +37,9 @@ WebElement destinationField;
 	@FindBy(xpath="/html/body/ul/li[1]")
 	WebElement enter;
 	
+	//@FindBy(xpath="/html/body/div[9]/div[3]/div[3]/div[1]/div[4]/div[1]/div/div[3]/div[2]")
+	//WebElement bookbtn;
+	
 	public Search_hotels() {
 		PageFactory.initElements(driver, this);
 	}
@@ -73,6 +76,7 @@ WebElement destinationField;
 	//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/ul/li[1]")));
 	
 	searchbtn.click();
+	//bookbtn.click();
 	driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			

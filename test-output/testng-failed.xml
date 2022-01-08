@@ -6,10 +6,9 @@
       <class name="Testcases.LoginPageTest">
         <methods>
           <include name="browserSetUp"/>
+          <include name="validateSearchTest"/>
           <include name="extentReportSetup"/>
-          <include name="validateBookingTest"/>
           <include name="closeSetUp"/>
-          <include name="validateLoginTest"/>
           <include name="generateReport"/>
         </methods>
       </class> <!-- Testcases.LoginPageTest -->
